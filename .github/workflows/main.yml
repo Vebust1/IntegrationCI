@@ -1,0 +1,9 @@
+name: Demo workflow
+on: workflow_dispatch
+jobs: 
+  isTitle:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Title is Exist
+        run: echo Hello GH Actions!
+    
